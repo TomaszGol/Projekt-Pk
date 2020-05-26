@@ -1,0 +1,15 @@
+Warszawa-Krakow 300
+Paryz-Berlin 650
+Tarnowskie-Gory-Strzybnica 10
+Paryz-Londyn 200
+Tarnowskie-Gory-Katowice 30
+Hej-Hej 10
+Gliwcie-Katowice 20
+Siema-Siema 100
+LosAngeles-SanFrancisco 300
+hejhej 10
+tarnow-siema 10
+krakow-warszawa 300
+Strzybnica-Katowice 30
+tomek-kemot 20
+Seul-Tajpej 1489
