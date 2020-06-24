@@ -1,22 +1,13 @@
 ﻿  List.c
-C:\Users\Tomek\source\repos\ProjektPK\ProjektPK\List.c(45,37): warning C4244: "=": konwersja z "double" do "float", możliwa utrata danych
-C:\Users\Tomek\source\repos\ProjektPK\ProjektPK\List.c(115,38): warning C4244: "=": konwersja z "double" do "float", możliwa utrata danych
-C:\Users\Tomek\source\repos\ProjektPK\ProjektPK\List.c(165,50): warning C4013: niezdefiniowany "SavetoToRank"; przy założeniu, że extern zwraca int
-C:\Users\Tomek\source\repos\ProjektPK\ProjektPK\List.c(165,88): warning C4013: niezdefiniowany "main"; przy założeniu, że extern zwraca int
-  Rank.c
-C:\Users\Tomek\source\repos\ProjektPK\ProjektPK\Rank.c(14,33): warning C4244: "=": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\Tomek\source\repos\ProjektPK\ProjektPK\Rank.c(26,33): warning C4244: "=": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\Tomek\source\repos\ProjektPK\ProjektPK\Rank.c(45,36): warning C4244: "=": konwersja z "double" do "float", możliwa utrata danych
-C:\Users\Tomek\source\repos\ProjektPK\ProjektPK\Rank.c(115,23): warning C4133: "=": niezgodne typy - od "Node *" do "prank *"
-C:\Users\Tomek\source\repos\ProjektPK\ProjektPK\Rank.c(113,1): warning C4133: "inicjowanie": niezgodne typy - od "rank *" do "Node *"
-  main.c
-C:\Users\Tomek\source\repos\ProjektPK\ProjektPK\main.c(32,34): warning C4244: "funkcja": konwersja z "time_t" do "unsigned int", możliwa utrata danych
-C:\Users\Tomek\source\repos\ProjektPK\ProjektPK\main.c(36,40): warning C4047: "funkcja": "char *" różni się w poziomach operatorów pośrednich od "char **"
-C:\Users\Tomek\source\repos\ProjektPK\ProjektPK\main.c(36,40): warning C4024: "readFileWithTags": różne typy dla formalnego i rzeczywistego parametru 1
-C:\Users\Tomek\source\repos\ProjektPK\ProjektPK\main.c(78,37): warning C4047: "funkcja": "char *" różni się w poziomach operatorów pośrednich od "char **"
-C:\Users\Tomek\source\repos\ProjektPK\ProjektPK\main.c(78,37): warning C4024: "readFilerank": różne typy dla formalnego i rzeczywistego parametru 1
-C:\Users\Tomek\source\repos\ProjektPK\ProjektPK\main.c(14,1): warning C4047: "inicjowanie": "char **" różni się w poziomach operatorów pośrednich od "char *"
-C:\Users\Tomek\source\repos\ProjektPK\ProjektPK\main.c(15,1): warning C4047: "inicjowanie": "char **" różni się w poziomach operatorów pośrednich od "char *"
-  Generowanie kodu...
-C:\Users\Tomek\source\repos\ProjektPK\ProjektPK\List.c(87): warning C4715: "CountList”: niewszystkie ścieżki kodu zwracają wartość
+C:\Users\Tomek\source\repos\ProjektPK\ProjektPK\List.c(34,29): warning C4244: "funkcja": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+C:\Users\Tomek\source\repos\ProjektPK\ProjektPK\List.c(38,35): warning C4047: "funkcja": "char *" różni się w poziomach operatorów pośrednich od "char **"
+C:\Users\Tomek\source\repos\ProjektPK\ProjektPK\List.c(38,35): warning C4024: "readFileWithTags": różne typy dla formalnego i rzeczywistego parametru 1
+C:\Users\Tomek\source\repos\ProjektPK\ProjektPK\List.c(61,119): warning C4013: niezdefiniowany "main"; przy założeniu, że extern zwraca int
+C:\Users\Tomek\source\repos\ProjektPK\ProjektPK\List.c(80,29): warning C4047: "funkcja": "char *" różni się w poziomach operatorów pośrednich od "char **"
+C:\Users\Tomek\source\repos\ProjektPK\ProjektPK\List.c(80,29): warning C4024: "readFilerank": różne typy dla formalnego i rzeczywistego parametru 1
+C:\Users\Tomek\source\repos\ProjektPK\ProjektPK\List.c(15,1): warning C4047: "inicjowanie": "char **" różni się w poziomach operatorów pośrednich od "char *"
+C:\Users\Tomek\source\repos\ProjektPK\ProjektPK\List.c(16,1): warning C4047: "inicjowanie": "char **" różni się w poziomach operatorów pośrednich od "char *"
+C:\Users\Tomek\source\repos\ProjektPK\ProjektPK\List.c(148,37): warning C4244: "=": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\Tomek\source\repos\ProjektPK\ProjektPK\List.c(218,38): warning C4244: "=": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\Tomek\source\repos\ProjektPK\ProjektPK\List.c(190): warning C4715: "CountList”: niewszystkie ścieżki kodu zwracają wartość
   ProjektPK.vcxproj -> C:\Users\Tomek\source\repos\ProjektPK\Debug\ProjektPK.exe

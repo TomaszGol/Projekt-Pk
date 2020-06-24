@@ -18,6 +18,8 @@ typedef struct list
     struct list* pNext; ///< Wskaznik na nastepny element
 }listtyp;
 
+void startmenu();
+
 /**Wysyla dystans do listy
 @param pHead wskaznik na poczatek listy
 @param cubbe2 zawiera dystans
