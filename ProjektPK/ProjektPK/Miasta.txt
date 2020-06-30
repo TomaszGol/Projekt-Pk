@@ -95,7 +95,7 @@ Monako-Florencja 341
 Lizbona-Sewilla 305
 Lizbona-Miami 6670
 Lizbona-Dublin 1648
-Lizbona-ZAgrzeb 2203
+Lizbona-Zagrzeb 2203
 Lizbona-Monachium 1220
 Praga-Koszyce 517
 Praga-Sarajewo 755
@@ -164,7 +164,7 @@ Marsylia-Brno 1080
 Marsylia-Bukareszt 1660
 Marsylia-Wenecja 600
 Marsylia-Sarajewo 1045
-Marsylia-tuluza 321
+Marsylia-Tuluza 321
 Marsylia-Genua 312
 Ostrawa-Krakow 125
 Ostrawa-Sofia 876
@@ -204,9 +204,10 @@ Wroclaw-Koszyce 396
 Wroclaw-Lipsk 326
 Tuluza-Lizbona 1033
 Tuluza-Casablanca 1369
-Tuluza-POrto 870
+Tuluza-Porto 870
 Tuluza-Madryt 553
 Tuluza-Marsylia 319
 Seul-Tajpej 1489
 Seul-Tokyo 500
 Kioto-Tokyo 362
+Odessa-Talin 1495

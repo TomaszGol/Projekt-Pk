@@ -9,15 +9,6 @@
 #ifndef Rank_H
 #define Rank_H
 
-
-/**Przechowuje punkty i nazwe uzytkownika, oraz wskaznik na nastepny element */
-typedef struct rank
-{
-    int points;///< Punkty
-    char* name;///< Nazwa uzytkownika 
-    struct rank* pNext;///< Wskaznik na nastepny element
-}prank;
-
 /**Wysyla punkty do listy
 @param pHead poczatek listy
 @param point zawiera punkty

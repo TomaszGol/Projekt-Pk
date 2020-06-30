@@ -9,15 +9,20 @@
 #ifndef List_H
 #define List_H
 
-/**Przechowuje miasta i dystans pomiêdzy nimi, oraz wskaznik na nastepny element */
-typedef struct list
-{
+/**Glowna czesc gry
+@param bufor Poczatek listy
+@param health zawiera liczbe zdrowia
+@param pointsinrank zawiera liczbe punktow
+*/
+void PickOne(listtyp* bufor, int health, int pointsinrank);
 
-    double distance; ///< Dystans miedzy miastami
-    char* cities; ///< Miasta
-    struct list* pNext; ///< Wskaznik na nastepny element
-}listtyp;
+/**Glowna czesc obslugujaca ranking
+@param bufrank Poczatek listy
+*/
+void PickThree(prank* bufrank);
 
+/**Obsluguje menu gry i akcje z nim zwiazane
+*/
 void startmenu();
 
 /**Wysyla dystans do listy
@@ -69,6 +74,21 @@ void ShowCitiesToGuess(listtyp* head, int RandNumber);
 @param health wskaznik na liczbe zdrowia
 */
 void CheckPoint(listtyp* head, float distanceguess, int RandNumber, int *pointsinrank, int *health);
+
+/**Dodaje punkty i inforumje uzytkownika o dobej odpowiedzi
+@param pointsinrank liczba punktow w rankingu
+@param distancegiven dystans z pliku
+@param distanceguess dystans ktory wpisal uzytkownik
+*/
+void correct(int* pointsinrank, float distancegiven, float distanceguess);
+
+/**Odejmuje zycie i informuje uzytkownika o zlej odpowiedzi
+@param pointsinrank liczba punktow w rankingu
+@param distancegiven dystans z pliku
+@param distanceguess dystans ktory wpisal uzytkownik
+@param health ilosc zyc uzytkownika
+*/
+void wrong(int* pointsinrank, float distanceguess, float distancegiven, int* health);
 
 /**Wpisuje do pliku miasto uzytkownika
 */

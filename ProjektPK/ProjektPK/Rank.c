@@ -4,7 +4,9 @@
 #include <time.h>
 #include <conio.h>
 
+#include "Struct.h"
 #include "Rank.h"
+
 
 void push_back_rank(prank** pHead, double point, char *names)
 {
@@ -40,8 +42,6 @@ void readFilerank(char* bufrank, prank** start)
         while (fgets(bufrank, 1000, file3) != NULL) {
             name = strtok_s(NULL, correction, &bufrank);
             point = strtok_s(NULL, correction, &bufrank);
-            //printf("%s", name);
-            //printf("%s", point);
             a = strtod(point, NULL);
             push_back_rank(start, a, name);
         }
